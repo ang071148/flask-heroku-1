@@ -30,7 +30,7 @@ def get_api():
 
 @app.route('/name')
 def name():
-    return"ปุญชรัสมิ์ จันทร์กลม เลขที่15 ม.4/10"
+    return "ปุญชรัสมิ์ จันทร์กลม เลขที่15 ม.4/10"
 
 if __name__ == "__main__":
     app.run(debug=False)
