@@ -28,7 +28,7 @@ def hello():
 def get_api():
     return jsonify(data)
 
-@app.route('/name')
+@app.route('/')
 def name():
     return "ปุญชรัสมิ์ จันทร์กลม เลขที่15 ม.4/10"
 
